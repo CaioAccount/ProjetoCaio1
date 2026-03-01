@@ -49,7 +49,6 @@ async function cliqueiNoBotao(){
 
 function mudarFundo(clima, horaAtual, nascerSol, porSol){
 
-    // verifica se é dia ou noite
     const ehDia = horaAtual >= nascerSol && horaAtual < porSol
 
     let imagem = ""
